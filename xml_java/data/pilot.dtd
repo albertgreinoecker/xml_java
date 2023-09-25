@@ -1,0 +1,10 @@
+<!ELEMENT Piloten (Pilot+)>
+<!ELEMENT Pilot (Vorname,Nachname,Vorname2Kurz,Punkte,Rennstall)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ELEMENT Vorname2Kurz (#PCDATA)>
+<!ELEMENT Punkte (#PCDATA)>
+<!ELEMENT Rennstall (Name,dabeiSeit)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT dabeiSeit (#PCDATA)>
+<!ATTLIST Pilot id CDATA #REQUIRED>

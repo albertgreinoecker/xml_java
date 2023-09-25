@@ -1,0 +1,243 @@
+<Piloten xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="pilot.xsd">
+	<Pilot id="2">
+		<Vorname>Kristina</Vorname>
+		<Nachname>Chung</Nachname>
+		<Vorname2Kurz>H</Vorname2Kurz>
+		<Punkte>10</Punkte>
+		<Rennstall>
+			<Name>BMWSauber</Name>
+			<dabeiSeit>2006-08-10</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="3">
+		<Vorname>Paige</Vorname>
+		<Nachname>Chen</Nachname>
+		<Vorname2Kurz>H</Vorname2Kurz>
+		<Punkte>48</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2000-10-13</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="4">
+		<Vorname>Sherri</Vorname>
+		<Nachname>Melton</Nachname>
+		<Vorname2Kurz>E</Vorname2Kurz>
+		<Punkte>67</Punkte>
+		<Rennstall>
+			<Name>RedBull</Name>
+			<dabeiSeit>2007-07-01</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="5">
+		<Vorname>Gretchen</Vorname>
+		<Nachname>Hill</Nachname>
+		<Vorname2Kurz>I</Vorname2Kurz>
+		<Punkte>43</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2008-06-16</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="6">
+		<Vorname>Karen</Vorname>
+		<Nachname>Puckett</Nachname>
+		<Vorname2Kurz>U</Vorname2Kurz>
+		<Punkte>22</Punkte>
+		<Rennstall>
+			<Name>RedBull</Name>
+			<dabeiSeit>2009-10-26</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="7">
+		<Vorname>Patrick</Vorname>
+		<Nachname>Song</Nachname>
+		<Vorname2Kurz>O</Vorname2Kurz>
+		<Punkte>25</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2010-01-28</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="8">
+		<Vorname>Elsie</Vorname>
+		<Nachname>Hamilton</Nachname>
+		<Vorname2Kurz>A</Vorname2Kurz>
+		<Punkte>79</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2005-06-18</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="9">
+		<Vorname>Hazel</Vorname>
+		<Nachname>Bender</Nachname>
+		<Vorname2Kurz>E</Vorname2Kurz>
+		<Punkte>5</Punkte>
+		<Rennstall>
+			<Name>BMWSauber</Name>
+			<dabeiSeit>2000-12-02</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="10">
+		<Vorname>Malcolm</Vorname>
+		<Nachname>Wagner</Nachname>
+		<Vorname2Kurz>A</Vorname2Kurz>
+		<Punkte>25</Punkte>
+		<Rennstall>
+			<Name>Renault</Name>
+			<dabeiSeit>2010-04-21</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="11">
+		<Vorname>Dolores</Vorname>
+		<Nachname>McLaughlin</Nachname>
+		<Vorname2Kurz>C</Vorname2Kurz>
+		<Punkte>3</Punkte>
+		<Rennstall>
+			<Name>Renault</Name>
+			<dabeiSeit>2000-10-12</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="12">
+		<Vorname>Francis</Vorname>
+		<Nachname>McNamara</Nachname>
+		<Vorname2Kurz>C</Vorname2Kurz>
+		<Punkte>39</Punkte>
+		<Rennstall>
+			<Name>BMWSauber</Name>
+			<dabeiSeit>2011-02-28</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="13">
+		<Vorname>Sandy</Vorname>
+		<Nachname>Raynor</Nachname>
+		<Vorname2Kurz>A</Vorname2Kurz>
+		<Punkte>85</Punkte>
+		<Rennstall>
+			<Name>Ferrari</Name>
+			<dabeiSeit>2010-08-18</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="14">
+		<Vorname>Marion</Vorname>
+		<Nachname>Moon</Nachname>
+		<Vorname2Kurz>O</Vorname2Kurz>
+		<Punkte>40</Punkte>
+		<Rennstall>
+			<Name>Ferrari</Name>
+			<dabeiSeit>2011-10-29</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="15">
+		<Vorname>Beth</Vorname>
+		<Nachname>Woodard</Nachname>
+		<Vorname2Kurz>O</Vorname2Kurz>
+		<Punkte>68</Punkte>
+		<Rennstall>
+			<Name>BMWSauber</Name>
+			<dabeiSeit>2011-04-25</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="16">
+		<Vorname>Julia</Vorname>
+		<Nachname>Desai</Nachname>
+		<Vorname2Kurz>E</Vorname2Kurz>
+		<Punkte>50</Punkte>
+		<Rennstall>
+			<Name>RedBull</Name>
+			<dabeiSeit>2002-10-30</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="17">
+		<Vorname>Jerome</Vorname>
+		<Nachname>Wallace</Nachname>
+		<Vorname2Kurz>A</Vorname2Kurz>
+		<Punkte>68</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2010-03-01</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="18">
+		<Vorname>Neal</Vorname>
+		<Nachname>Lawrence</Nachname>
+		<Vorname2Kurz>A</Vorname2Kurz>
+		<Punkte>26</Punkte>
+		<Rennstall>
+			<Name>Ferrari</Name>
+			<dabeiSeit>2006-10-30</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="19">
+		<Vorname>Jean</Vorname>
+		<Nachname>Griffin</Nachname>
+		<Vorname2Kurz>R</Vorname2Kurz>
+		<Punkte>72</Punkte>
+		<Rennstall>
+			<Name>Ferrari</Name>
+			<dabeiSeit>2005-07-01</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="20">
+		<Vorname>Kristine</Vorname>
+		<Nachname>Dougherty</Nachname>
+		<Vorname2Kurz>O</Vorname2Kurz>
+		<Punkte>8</Punkte>
+		<Rennstall>
+			<Name>Renault</Name>
+			<dabeiSeit>2005-10-15</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="21">
+		<Vorname>Crystal</Vorname>
+		<Nachname>Powers</Nachname>
+		<Vorname2Kurz>O</Vorname2Kurz>
+		<Punkte>76</Punkte>
+		<Rennstall>
+			<Name>BMWSauber</Name>
+			<dabeiSeit>2001-10-09</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="22">
+		<Vorname>Alex</Vorname>
+		<Nachname>May</Nachname>
+		<Vorname2Kurz>A</Vorname2Kurz>
+		<Punkte>93</Punkte>
+		<Rennstall>
+			<Name>Ferrari</Name>
+			<dabeiSeit>2010-12-13</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="23">
+		<Vorname>Eric</Vorname>
+		<Nachname>Steele</Nachname>
+		<Vorname2Kurz>T</Vorname2Kurz>
+		<Punkte>36</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2001-09-10</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="24">
+		<Vorname>Wesley</Vorname>
+		<Nachname>Teague</Nachname>
+		<Vorname2Kurz>E</Vorname2Kurz>
+		<Punkte>95</Punkte>
+		<Rennstall>
+			<Name>McLaren</Name>
+			<dabeiSeit>2011-01-14</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+	<Pilot id="25">
+		<Vorname>Franklin</Vorname>
+		<Nachname>Vick</Nachname>
+		<Vorname2Kurz>I</Vorname2Kurz>
+		<Punkte>35</Punkte>
+		<Rennstall>
+			<Name>Ferrari</Name>
+			<dabeiSeit>2008-09-20</dabeiSeit>
+		</Rennstall>
+	</Pilot>
+</Piloten>
+

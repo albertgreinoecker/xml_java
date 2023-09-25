@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+
+
+	<xs:element name="Piloten">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="10" name="Pilot"
+					type="Pilot" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Pilot">
+		<xs:sequence>
+			<xs:element name="Vorname" type="xs:string" />
+			<xs:element name="Nachname" type="xs:string" />
+			<xs:element name="Vorname2Kurz" type="xs:string" />
+			<xs:element name="Punkte" type="xs:positiveInteger" />
+			<xs:element name="Rennstall" type="Rennstall" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:int" use="required" />
+	</xs:complexType>
+	
+	<xs:complexType name="Rennstall">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" />
+			<xs:element name="dabeiSeit" type="xs:date"  />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema> 

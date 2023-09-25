@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+	<header css_file="custom/pundp/mtv.css"
+		endDate="15-Dec-2011 15:30:08" startDate="15-Dec-2011 15:30:08"
+		status="STATUS_PRODUCTIVE">
+		<label>Online Fragebogen für Facebook</label>
+		<creDate>15/12/2011 03:30:08 PM</creDate>
+		<creator>pundp</creator>
+		<logo></logo>
+	</header>
+	<closedEndedQ disp_id="1" id="1" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Woher ist Ihnen das Mühlviertel TV bekannt?</text>
+		<after_text></after_text>
+		<qdescription>(bitte ankreuzen, Mehrfachnennung möglich)
+		</qdescription>
+		<choices misc="true" mult="true" noCols="1"
+			randAlternatives="false" upTo="7">
+			<choice askreason="false" id="1">
+				<text>Zeitung</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Internet</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Fernsehen</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Facebook</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>Freunde/ Bekannte</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>Familienmitglieder/Verwandte</text>
+			</choice>
+			<choice askreason="false" id="7" succ="30">
+				<text>Mühlviertel TV ist mir völlig unbekannt</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="2" id="2" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wie oft sehen Sie Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>täglich</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>wöchentlich</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>monatlich</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>halbjährlich</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>jährlich</text>
+			</choice>
+			<choice askreason="false" id="6" succ="30">
+				<text>nie</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<openendedMatrixQ disp_id="3" id="3"
+		measurement="NOMINAL" noLines="0" obligatory="false"
+		progress_value="5" var_col_width="false" var_label="enter a label"
+		var_name="vname">
+		<text>Wie lange sehen Sie Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription>Bitte Angabe in Minuten. Füllen Sie bitte NUR EINE Zeile
+			aus.</qdescription>
+		<questions>
+			<question id="1">
+				<text>täglich</text>
+			</question>
+			<question id="2">
+				<text>wöchentlich</text>
+			</question>
+			<question id="3">
+				<text>monatlich</text>
+			</question>
+			<question id="4">
+				<text>halbjährlich</text>
+			</question>
+			<question id="5">
+				<text>jährlich</text>
+			</question>
+		</questions>
+	</openendedMatrixQ>
+	<closedEndedQ disp_id="4" id="4" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wo sehen Sie Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription>(Mehrfachnennung möglich)</qdescription>
+		<choices misc="false" mult="true" noCols="1"
+			randAlternatives="false" upTo="3">
+			<choice askreason="false" id="1">
+				<text>Fernsehen</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Homepage von Mühlviertel TV</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Facebook</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Smartphone</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<questionMatrixMult disp_id="5" flip_matrix="false"
+		id="5" measurement="NOMINAL" obligatory="false" progress_value="11"
+		var_col_width="false" var_label="enter a label" var_name="vname">
+		<text>Wie häufig bzw. selten sehen Sie folgende Sendebeiträge auf
+			Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>immer</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>häufig</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>manchmal</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>selten</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>nie</text>
+			</choice>
+		</choices>
+		<questions>
+			<question id="1">
+				<text>Wirtschaft</text>
+			</question>
+			<question id="2">
+				<text>Politik</text>
+			</question>
+			<question id="3">
+				<text>Sport</text>
+			</question>
+			<question id="4">
+				<text>Gesellschaft</text>
+			</question>
+			<question id="5">
+				<text>Kultur</text>
+			</question>
+			<question id="6">
+				<text>Landwirtschaft</text>
+			</question>
+			<question id="7">
+				<text>Familie/ Kinder</text>
+			</question>
+			<question id="8">
+				<text>Jugend</text>
+			</question>
+			<question id="9">
+				<text>Senioren</text>
+			</question>
+			<question id="10">
+				<text>Ankündigungen</text>
+			</question>
+			<question id="11">
+				<text>Auto/Motor</text>
+			</question>
+		</questions>
+		<splitters></splitters>
+	</questionMatrixMult>
+	<openEndedQ disp_id="6" id="6" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Sonstige Sendebeiträge, die Sie auf Mühlviertel TV sehen:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<closedEndedQ disp_id="7" id="7" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>
+			Mühlviertel TV bringt Informationen aus den vier Bezirken des
+			Mühlviertels. Sind Sie der Meinung, dass die Sendebeiträge aus
+			<u>Ihrem Bezirk</u>
+			:
+		</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>zu viel sind</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>gerade richtig sind</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>zu wenig sind</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="8" id="8" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Aus welchen Regionen möchten Sie mehr Sendebeiträge auf
+			Mühlviertel TV sehen?</text>
+		<after_text></after_text>
+		<qdescription>(Mehrfachnennung möglich)</qdescription>
+		<choices misc="false" mult="true" noCols="1"
+			randAlternatives="false" upTo="6">
+			<choice askreason="false" id="1">
+				<text>Rohrbach</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Urfahr-Umgebung</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Freistadt</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Perg</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>Regionen außerhalb des Mühlviertels</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>passt so wie es ist</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<questionMatrixMult disp_id="9" flip_matrix="false"
+		id="9" measurement="NOMINAL" obligatory="false" progress_value="12"
+		var_col_width="false" var_label="enter a label" var_name="vname">
+		<text>Von welchen Sendebeiträgen möchten Sie mehr bzw. weniger auf
+			Mühlviertel TV sehen?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>mehr Beiträge</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>
+					passt so wie es ist
+					<br></br>
+				</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>weniger Beiträge</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+		<questions>
+			<question id="1">
+				<text>Wirtschaft</text>
+			</question>
+			<question id="2">
+				<text>Politik</text>
+			</question>
+			<question id="3">
+				<text>Sport</text>
+			</question>
+			<question id="4">
+				<text>Gesellschaft</text>
+			</question>
+			<question id="5">
+				<text>Kultur</text>
+			</question>
+			<question id="6">
+				<text>Landwirtschaft</text>
+			</question>
+			<question id="7">
+				<text>Gesundheit</text>
+			</question>
+			<question id="8">
+				<text>Familie/ Kinder</text>
+			</question>
+			<question id="9">
+				<text>Jugend</text>
+			</question>
+			<question id="10">
+				<text>Senioren</text>
+			</question>
+			<question id="11">
+				<text>Ankündigungen</text>
+			</question>
+			<question id="12">
+				<text>Auto/Motor</text>
+			</question>
+		</questions>
+		<splitters></splitters>
+	</questionMatrixMult>
+	<openEndedQ disp_id="10" id="10" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Sonstige Sendebeiträge, die Sie auf Mühlviertel TV sehen
+			möchten:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<questionMatrixMult disp_id="11" flip_matrix="false"
+		id="11" measurement="NOMINAL" obligatory="false" progress_value="9"
+		var_col_width="false" var_label="enter a label" var_name="vname">
+		<text>Wie zufrieden bzw. unzufrieden sind Sie mit:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>
+					sehr zufrieden
+					<br></br>
+				</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>zufrieden</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>
+					wenig zufrieden
+					<br></br>
+				</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>
+					gar nicht zufrieden
+					<br></br>
+				</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+		<questions>
+			<question id="1">
+				<text>Länge der Sendebeiträge auf Mühlviertel TV</text>
+			</question>
+			<question id="2">
+				<text>Tonqualität</text>
+			</question>
+			<question id="3">
+				<text>Bildqualität</text>
+			</question>
+			<question id="4">
+				<text>Moderation</text>
+			</question>
+			<question id="5">
+				<text>Inhaltliche Aufbereitung der Sendebeiträge (Text)</text>
+			</question>
+			<question id="6">
+				<text>Qualität der Sendungen insgesamt</text>
+			</question>
+			<question id="7">
+				<text>Wöchentliche Wiederholung der Mühlviertel TV-Sendung</text>
+			</question>
+			<question id="8">
+				<text>Homepage von Mühlviertel TV</text>
+			</question>
+			<question id="9">
+				<text>Facebook-Seite von Mühlviertel TV</text>
+			</question>
+		</questions>
+		<splitters></splitters>
+	</questionMatrixMult>
+	<openEndedQ disp_id="12" id="12" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Womit sind Sie sonst noch bei Mühlviertel TV zufrieden?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<openEndedQ disp_id="13" id="13" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Womit sind Sie sonst noch bei Mühlviertel TV unzufrieden?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<closedEndedQ disp_id="14" id="14" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Sind Sie zufrieden damit, dass es auf Mühlviertel TV nur eine
+			Moderatorin gibt?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>ja, eine Moderatorin ist ausreichend</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>nein, mindestens zwei Personen wären besser</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>ist egal</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>das wusste ich nicht, dass es nur eine Moderatorin auf
+					Mühlviertel TV gibt</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<questionMatrixMult disp_id="15" flip_matrix="false"
+		id="15" measurement="NOMINAL" obligatory="false" progress_value="5"
+		subQuestionPortion="40" var_col_width="false"
+		var_label="enter a label" var_name="vname">
+		<text>
+			<p>Was trifft auf die Mühlviertel TV-Moderatorin zu bzw. nicht zu?
+				Sie…</p>
+			<p>
+				<img alt="" height="268" src="../qsys_data/port.jpg" width="178"></img>
+			</p>
+		</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>trifft sehr zu</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>trifft zu</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>trifft nicht zu</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+		<questions>
+			<question id="1">
+				<text>spricht deutlich</text>
+			</question>
+			<question id="2">
+				<text>spricht verständlich</text>
+			</question>
+			<question id="3">
+				<text>passt gut für das Mühlviertel TV</text>
+			</question>
+			<question id="4">
+				<text>trägt passende Kleidung</text>
+			</question>
+			<question id="5">
+				<text>hat ein gutes Styling (Make-up, Frisur,…)</text>
+			</question>
+		</questions>
+		<splitters></splitters>
+	</questionMatrixMult>
+	<openEndedQ disp_id="16" id="16" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Was Sie sonst noch zur Moderation sagen wollten:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<closedEndedQ disp_id="17" id="17" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Sprechen Sie mit Freunden/Bekannten über Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>regelmäßig</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>manchmal</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>nie</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="18" id="18" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Möchten Sie Mühlviertel TV als Werbeplattform nützen?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>ja, sicher</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>ja, eventuell   </text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>nein, eher nicht</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>nein, gar nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<questionMatrixMult disp_id="19" flip_matrix="false"
+		id="19" measurement="NOMINAL" obligatory="false" progress_value="9"
+		subQuestionLabel="Muehlviertel TV ist " var_col_width="false"
+		var_label="enter a label" var_name="vname">
+		<text>Was halten Sie von Mühlviertel TV? Bewerten Sie bitte mit
+			Schulnoten 1 bis 5:</text>
+		<after_text></after_text>
+		<qdescription>Bewerten Sie bitte mit Schulnoten 1 bis 5:
+		</qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>
+					1 sehr
+					<br></br>
+				</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>2</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>3</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>4</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>
+					5 gar nicht
+					<br></br>
+				</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+		<questions>
+			<question id="1">
+				<text>aktuell</text>
+			</question>
+			<question id="2">
+				<text>informativ</text>
+			</question>
+			<question id="3">
+				<text>glaubwürdig</text>
+			</question>
+			<question id="4">
+				<text>jugendlich</text>
+			</question>
+			<question id="5">
+				<text>kritisch</text>
+			</question>
+			<question id="6">
+				<text>sachlich</text>
+			</question>
+			<question id="7">
+				<text>unterhaltsam</text>
+			</question>
+			<question id="8">
+				<text>konservativ</text>
+			</question>
+			<question id="9">
+				<text>sympathisch</text>
+			</question>
+		</questions>
+		<splitters></splitters>
+	</questionMatrixMult>
+	<openEndedQ disp_id="20" id="20" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Gibt es noch weitere Eigenschaften, mit denen Sie Mühlviertel TV
+			beschreiben könnten?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<closedEndedQ disp_id="21" id="21" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>
+			Wie häufig bzw. selten besuchen Sie die Homepage von Mühlviertel TV
+			<a href="http://www.muehlviertel.tv" target="_blank"
+				title="www.muehlviertel.tv">www.muehlviertel.tv    </a>
+			?
+		</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>täglich</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>wöchentlich</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>monatlich</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>halbjährlich</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>jährlich</text>
+			</choice>
+			<choice askreason="false" id="6" succ="23">
+				<text>nie</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="22" id="22" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Finden Sie auf der Homepage von Mühlviertel TV, was Sie suchen?
+		</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>Ja, ich finde mich gut auf der Homepage zurecht</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Beiträge sind schwer zu finden</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Ich habe noch nichts gesucht, aber das Design gefällt mir
+				</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Ich habe noch nichts gesucht, aber das Design gefällt mir
+					nicht</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="23" id="23" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wie häufig bzw. selten besuchen Sie die Facebook-Seite von
+			Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>täglich</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>wöchentlich</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>monatlich</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>halbjährlich</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>jährlich</text>
+			</choice>
+			<choice askreason="false" id="6" succ="24">
+				<text>nie</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="24" id="24" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wie häufig bzw. selten geben Sie bei Sendungen von Mühlviertel
+			TV ein „Gefällt mir“ ab?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>immer</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>häufig</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>manchmal</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>selten</text>
+			</choice>
+			<choice askreason="false" id="5" succ="28">
+				<text>nie</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="25" id="25" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wie häufig bzw. selten sehen Sie Mühlviertel TV unter
+			„Neuigkeiten“ auf Facebook an?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>immer</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>häufig</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>manchmal</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>selten</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>nie</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="26" id="26" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wieviele Videos von Mühlviertel TV haben Sie bereits auf
+			Facebook gesehen?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>1</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>2-5</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>6-10</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>mehr als 10</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>noch keine gesehen</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="27" id="27" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Welche Beiträge von Mühlviertel TV sollten stärker auf Facebook
+			gepostet werden?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="true" misc_str="Sonstiges (bitte nennen):"
+			mult="true" noCols="1" randAlternatives="false" upTo="13">
+			<choice askreason="false" id="1">
+				<text>Wirtschaft</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Politik</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Sport</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Gesellschaft</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>Kultur</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>Landwirtschaft</text>
+			</choice>
+			<choice askreason="false" id="7">
+				<text>Gesundheit</text>
+			</choice>
+			<choice askreason="false" id="8">
+				<text>Familie/ Kinder</text>
+			</choice>
+			<choice askreason="false" id="9">
+				<text>Jugend</text>
+			</choice>
+			<choice askreason="false" id="10">
+				<text>Senioren</text>
+			</choice>
+			<choice askreason="false" id="11">
+				<text>Ankündigungen</text>
+			</choice>
+			<choice askreason="false" id="12">
+				<text>Auto/Motor</text>
+			</choice>
+			<choice askreason="false" id="13">
+				<text>Einträge darüber, wo Mühlviertel TV gerade ist</text>
+			</choice>
+			<choice askreason="false" id="14">
+				<text>Fotos von Events</text>
+			</choice>
+			<choice askreason="false" id="15">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="28" id="28" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wie schätzen Sie insgesamt das Image von Mühlviertel TV ein?
+		</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>sehr positiv</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>eher positiv</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>eher negativ</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>sehr negativ</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="29" id="29" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Würden Sie Mühlviertel TV weiterempfehlen?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1" succ="31">
+				<text>ja</text>
+			</choice>
+			<choice askreason="false" id="2" succ="31">
+				<text>nein</text>
+			</choice>
+			<choice askreason="false" id="3" succ="31">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="30" id="30" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Aus welchen Gründen sehen Sie kein Mühlviertel TV?</text>
+		<after_text></after_text>
+		<qdescription>(Mehrfachnennung möglich)</qdescription>
+		<choices misc="true" mult="true" noCols="1"
+			randAlternatives="false" upTo="8">
+			<choice askreason="false" id="1">
+				<text>kein Interesse am Regionalfernsehen</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>zu langweilig</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Beiträge zu lange</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>mangelnde Qualität der Sendungen</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>kein Kabelfernsehen, wo ich Mühlviertel TV sehen könnte</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>kein Internet, wo ich Mühlviertel TV sehen könnte</text>
+			</choice>
+			<choice askreason="false" id="7">
+				<text>ich wusste nicht, dass man Mühlviertel TV auch im Internet
+					sehen kann</text>
+			</choice>
+			<choice askreason="false" id="8">
+				<text>ich sehe wenig fern</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="31" id="31" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wann würden Sie (mehr) Mühlviertel TV (im Fernsehen oder im
+			Internet) sehen?</text>
+		<after_text></after_text>
+		<qdescription>(Mehrfachnennung möglich)</qdescription>
+		<choices misc="true" mult="true" noCols="1"
+			randAlternatives="false" upTo="11">
+			<choice askreason="false" id="1">
+				<text>wenn es mehr Sendungen aus meiner Region gäbe</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>wenn ich mich häufiger in Sendungen sehen könnte</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>wenn ich Bekannte häufiger in Sendungen sehen könnte</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>wenn es kürzere Sendebeiträge gäbe</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>wenn es längere Sendebeiträge gäbe</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>wenn es mehrere Moderator/innen gäbe</text>
+			</choice>
+			<choice askreason="false" id="7">
+				<text>wenn es eine genaue Programmübersicht gäbe</text>
+			</choice>
+			<choice askreason="false" id="8">
+				<text>wenn häufiger Videos auf Facebook gepostet werden</text>
+			</choice>
+			<choice askreason="false" id="9">
+				<text>wenn ich Sendebeiträge einfacher auf der Homepage von
+					Mühlviertel TV finden könnte</text>
+			</choice>
+			<choice askreason="false" id="10">
+				<text>wenn ich Mühlviertel TV auch über Satelliten-TV empfangen
+					könnte</text>
+			</choice>
+			<choice askreason="false" id="11">
+				<text>weiß nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="32" id="32" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Im Magazin OÖ TV werden Beiträge aus ganz Oberösterreich
+			gesendet. Sollte dieses Magazin wieder auf Mühlviertel TV zu sehen
+			sein?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>ja, sicher</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>eventuell</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>nein</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>ist mir egal</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>ich kenne OÖ TV nicht</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<openendedMatrixQ disp_id="33" id="33"
+		measurement="NOMINAL" noLines="0" obligatory="false"
+		progress_value="6" var_col_width="false" var_label="enter a label"
+		var_name="vname">
+		<text>Wie lange sehen Sie insgesamt fern?</text>
+		<after_text></after_text>
+		<qdescription>
+			<p>Angabe in Minuten. Füllen Sie bitte NUR EINE Zeile aus.</p>
+		</qdescription>
+		<questions>
+			<question id="1">
+				<text>täglich</text>
+			</question>
+			<question id="2">
+				<text>wöchentlich</text>
+			</question>
+			<question id="3">
+				<text>monatlich</text>
+			</question>
+			<question id="4">
+				<text>halbjährlich</text>
+			</question>
+			<question id="5">
+				<text>jährlich</text>
+			</question>
+			<question id="6">
+				<text>nie</text>
+			</question>
+		</questions>
+	</openendedMatrixQ>
+	<textBlock disp_id="NOT_SHOW" id="34">
+		<xhtml>Zum Abschluss bitten wir Sie noch um einige statistische
+			Angaben:</xhtml>
+	</textBlock>
+	<closedEndedQ disp_id="34" id="35" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Geschlecht:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>männlich</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>weiblich</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<openEndedQ disp_id="35" id="36" measurement="NOMINAL"
+		noLines="-1" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Wie alt sind Sie?</text>
+		<after_text>Jahre</after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<openEndedQ disp_id="36" id="37" measurement="NOMINAL"
+		noLines="0" obligatory="true" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Was ist Ihre Postleitzahl?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<closedEndedQ disp_id="37" id="38" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Was ist Ihre höchste abgeschlossene Schulbildung?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>Pflichtschule</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Lehre</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Berufsbildende mittlere Schule</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Matura</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>Fachhochschule/ Universität</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>Noch kein Schulabschluss</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="38" id="39" measurement="NOMINAL"
+		obligatory="true" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Was ist Ihre berufliche Stellung?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>Schüler/in</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Lehrling</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>Student/in</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Arbeiter/in</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>Angestellte/r</text>
+			</choice>
+			<choice askreason="false" id="6">
+				<text>Selbständig</text>
+			</choice>
+			<choice askreason="false" id="7">
+				<text>Hausfrau/mann</text>
+			</choice>
+			<choice askreason="false" id="8">
+				<text>Pensionist/in</text>
+			</choice>
+			<choice askreason="false" id="9">
+				<text>Arbeitslos</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<openEndedQ disp_id="39" id="40" measurement="NOMINAL"
+		noLines="0" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Wie viele Personen leben in Ihrem Haushalt (Sie selbst
+			mitgezählt)?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<openEndedQ disp_id="40" id="41" measurement="NOMINAL"
+		noLines="0" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Davon unter 14 Jahren:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<closedEndedQ disp_id="41" id="42" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Haben Sie in Ihrem Haushalt:</text>
+		<after_text></after_text>
+		<qdescription>(Mehrfachnennung möglich)</qdescription>
+		<choices misc="false" mult="true" noCols="1"
+			randAlternatives="false" upTo="4">
+			<choice askreason="false" id="1">
+				<text>Kabel TV</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>Satelliten TV</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>DVBT</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>Internet</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<closedEndedQ disp_id="42" id="43" measurement="NOMINAL"
+		obligatory="false" progress_value="1" var_label="enter a label"
+		var_name="vname">
+		<text>Wieviele Fernsehgeräte befinden sich in Ihrem Haushalt?</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+		<choices misc="false" mult="false" noCols="1"
+			randAlternatives="false" upTo="1">
+			<choice askreason="false" id="1">
+				<text>0</text>
+			</choice>
+			<choice askreason="false" id="2">
+				<text>1</text>
+			</choice>
+			<choice askreason="false" id="3">
+				<text>2</text>
+			</choice>
+			<choice askreason="false" id="4">
+				<text>3</text>
+			</choice>
+			<choice askreason="false" id="5">
+				<text>mehr als 3</text>
+			</choice>
+		</choices>
+	</closedEndedQ>
+	<openEndedQ disp_id="43" id="44" measurement="NOMINAL"
+		noLines="3" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>Und was Sie noch zu Mühlviertel TV sagen wollten:</text>
+		<after_text></after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+	<openEndedQ disp_id="44" id="45" measurement="NOMINAL"
+		noLines="0" obligatory="false" progress_value="1"
+		var_label="enter a label" var_name="vname">
+		<text>
+			<h3>
+				<strong>Vielen Dank für Ihre Teilnahme an der Befragung! </strong>
+				<br></br>
+			</h3>
+			<p>
+				<strong>Mühlviertel TV</strong>
+				verlost unter den Personen, die den Fragebogen bis zum 26. Februar
+				2012 ausfüllen, einen 3-tägigen Aufenthalt für 2 Personen im
+				Falkensteiner Hotel&amp;#38;Spa Bad Leonfelden sowie weitere tolle
+				Preise aus der Region Mühlviertel.
+				<br></br>
+				Wenn Sie an dieser Verlosung teilnehmen möchten, geben Sie uns bitte
+				hier Ihre Emailadresse bekannt:
+			</p>
+		</text>
+		<after_text>
+			Vielen Dank!
+			<br></br>
+			Die Emailadresse wird getrennt von Ihren Antworten gespeichert.
+			<br></br>
+			<a href="http://www.pundpsozialforschung.at/" target="_plain">
+				<img src="http://survey4all.org/qsys_data/pundp.png"></img>
+			</a>
+		</after_text>
+		<qdescription></qdescription>
+	</openEndedQ>
+</questionnaire>
