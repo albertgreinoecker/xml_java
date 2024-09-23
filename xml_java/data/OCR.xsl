@@ -4,8 +4,8 @@
 	<xsl:output method="html" indent="no" encoding="UTF-8" />
 
 	<xsl:template match="/">
-		<xsl:apply-templates select="header" />
-		<xsl:apply-templates select="paragraph" />
+		<xsl:apply-templates select="//header" />
+		<xsl:apply-templates select="//paragraph" />
 	</xsl:template>
 
 	<xsl:template match="paragraph">
@@ -17,7 +17,7 @@
 	</xsl:template>
 
 	<xsl:template match="header">
-		<a href="{//info[@key ='pdf_file']/@value}}">
+		<a href="{//info[@key ='pdf_file']/@value}">
 			<img src="{//info[@key ='thumb']/@value}"/>
 		</a>
 	</xsl:template>
